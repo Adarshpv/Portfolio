@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ganya04.github.io/portfolio/",
+  "homepage": "https://Adarshpv.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  
   "dependencies": {
     "@tabler/icons-react": "^2.47.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",

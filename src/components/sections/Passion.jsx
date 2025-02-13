@@ -22,8 +22,8 @@ const Passion = () => {
     <section className="mt-5 max-w-6xl mx-auto px-4 md:px-8" id="passion">
       {/* Section Header */}
       <SectionHeader
-        title={"Passion for Data."}
-        subtitle={"Insights & Analytics"}
+        title={"Mastering Data & Cloud."}
+        subtitle={"Optimizing Databases, Elevating Performance"}
       />
 
       {/* Articles Grid */}

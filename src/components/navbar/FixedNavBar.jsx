@@ -32,7 +32,7 @@ const FixedNavBar = () => {
     <div className="flex items-center justify-between py-5 w-full">
       <Link to={"/"} className="flex gap-1 group">
         <span className="font-bold text-[1.3rem] text-gray-900 dark:text-white group-hover:text-purple-500 transition-colors duration-300">
-          GJ
+          Patz
         </span>
         <span className="w-2 h-2 rounded-full bg-purple-500 group-hover:bg-purple-400 transition-colors duration-300"></span>
       </Link>

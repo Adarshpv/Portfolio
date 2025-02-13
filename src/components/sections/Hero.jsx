@@ -2,7 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { CustomButton } from "../buttons/CustomButton";
 import NavBar from "../navbar/NavBar";
-import profile from "../../assets/images/GanyaRP.jpg";
+import profile from "../../assets/images/Profdp.png";
 import { motion } from "framer-motion";
 import { headlines } from "../../utils";
 import { SocialMediaIcons } from "../ui/SocialMediaIcons";
@@ -15,17 +15,17 @@ const Hero = () => {
 
   const handleResumeClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1JxOAgxY8napNrr0MYL20UTlNB9Q5act7/view?usp=drive_link"
+      "https://drive.google.com/file/d/1HDOpJpxQRE2lEZnJ-fX_h0uXCvI1vWNB/view?usp=sharing"
     );
   };
 
   // Typewriter animation for title
   const [text] = useTypewriter({
     words: [
-      "Software Developer",
-      "Web Developer",
-      "Data Enthusiast",
-      "Data/Business Analyst",
+      "SQL Database Administrator",
+      "Cloud Engineer",
+      "Azure Architect",
+      "Infrastructure Analyst",
     ],
     loop: 0, // Infinite loop
     typeSpeed: 40,
@@ -49,7 +49,7 @@ const Hero = () => {
               <div>
                 {/* Static Title */}
                 <h1 className="text-4xl font-extrabold mx-auto md:text-5xl text-primary-text">
-                  Hi, I'm Ganya Janardhan.
+                  Hi, I'm Adarsh Pathange.
                 </h1>
 
                 {/* Typewriter Animation */}

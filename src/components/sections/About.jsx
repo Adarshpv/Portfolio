@@ -1,34 +1,34 @@
 import React from "react";
 import { motion } from "framer-motion";
 import SectionHeader from "../ui/SectionHeader";
-import profilePic from "../../assets/images/GanyaRP.jpg";
+import profilePic from "../../assets/images/Profdp.png";
 import { skillsWork, certificates } from "../../utils/index";
 import Marquee from "react-fast-marquee";
 
 const skillStacks = [
   {
-    title: "Data Science & AI",
+    title: "Database Development",
     description:
-      "Crafting scalable machine learning models for predictive analytics and intelligent automation. Proficient in implementing deep learning techniques for Computer Vision and NLP applications.",
-    tools: ["TensorFlow", "PyTorch", "Python", "Scikit-learn"],
+      "Designing, optimizing, and maintaining large-scale databases with a focus on high availability, disaster recovery, and performance tuning. Managing cloud and on-premises database environments with advanced security and monitoring solutions.",
+    tools: ["SQL Server", "Azure", "MySQL", "AWS RDS","MongoDB"],
   },
   {
-    title: "Data Analytics & Visualization",
+    title: "Cloud Infrastructure & DevOps",
     description:
-      "Transforming raw data into actionable insights through advanced analytics. Crafting intuitive, visually compelling dashboards and reports to enable data-driven decision-making.",
-    tools: ["Python", "SQL", "Power BI", "Tableau"],
+      "Architecting, deploying, and securing cloud-based environments. Implementing HA/DR strategies, automating workflows, and optimizing performance for scalable enterprise solutions.",
+    tools: ["Azure", "AWS", "VMs", "Site Recovery","Docker"],
   },
   {
-    title: "Full Stack Development",
+    title: "Data Engineering & ETL Pipelines",
     description:
-      "Designing dynamic, user-centric front-end interfaces with React.js and developing cross-platform mobile applications using React Native. Crafting robust, scalable backends with Node.js and Express.js to ensure seamless application performance.",
-    tools: ["React", "Node.js", "CSS"],
+      "Building and maintaining efficient ETL processes and data pipelines for structured and unstructured data. Ensuring seamless data flow and transformation across various sources and destinations.",
+    tools: ["SSIS", "Azure Data Factory", "Logic Apps","Synapse DB","IaC"],
   },
   {
-    title: "Cloud Infra-Architecture",
+    title: "Performance Tuning & Optimization",
     description:
-      "Hosting and maintaining secure, high-performance websites on cloud platforms. Deploying deep learning models on the cloud, enabling seamless mobile and web accessibility for real-time usage.",
-    tools: ["AWS", "Docker", "Azure"],
+      "Troubleshooting long-running queries, optimizing indexing strategies, and leveraging database performance tools to enhance system efficiency.",
+    tools: ["DMV","Query Optimization", "DBCC Commands","SQL Sentry One"],
   },
 ];
 
@@ -74,41 +74,40 @@ const About = () => {
           animate="visible"
           variants={fadeInVariants}
           className="space-y-8 text-center md:text-left max-w-lg"
-        >
-          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Hey there! I&apos;m <strong>Ganya Janardhan</strong>, a software
-            developer and data enthusiast based in Chicago. I specialize in
-            Frontend development with expertise in <strong>React.js</strong> and{" "}
-            <strong>Python</strong>, while also adapting seamlessly to backend
-            and data-focused project needs.
-          </p>
-          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Currently, I work for{" "}
-            <a
-              href="https://www.neuroleap.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-purple-600 dark:text-purple-400 hover:underline font-medium"
-            >
-              Neuroleap Corporation
-            </a>{" "}
-            as a Software Developer,where I build scalable, high-performance
-            applications and optimize systems to deliver impactful solutions. My
-            passion for data complements my development skills—whether it&apos;s
-            designing efficient state management systems or analyzing datasets
-            to drive insights, I thrive on bridging software and data-driven
-            innovation.
-          </p>
-          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Outside of work, I enjoy exploring nature trails 🌲, experimenting
-            with new recipes 🍲, and staying ahead of the curve with the latest
-            trends in AI, data analytics, and tech 🤖.
-          </p>
-          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            I&apos;m seeking new opportunities that let me combine my love for
-            coding and data with solving complex challenges. Let&apos;s connect
-            if you think we align!
-          </p>
+          >
+  <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+    Hey there! I&apos;m <strong>Adarsh Pathange</strong>, a SQL Database & Cloud 
+    Administrator based in Chicago with over five years of experience in 
+    <strong>SQL Server</strong>, <strong>Azure</strong>, and cloud infrastructure.
+  </p>
+  <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+    Currently, I work for{" "}
+    <a
+      href="https://www.compucom.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-purple-600 dark:text-purple-400 hover:underline font-medium"
+    >
+      CompuCom Systems
+    </a>{" "}
+    as an Infrastructure Engineer, managing databases, optimizing performance, and ensuring 
+    system reliability. My expertise includes <strong>database administration, cloud 
+    architecture, security, and data engineering</strong>.
+  </p>
+  <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+    Previously, I was recognized as <strong>Best Employee at Infosys for three 
+    consecutive quarters</strong>. I’m passionate about optimizing systems, mentoring, 
+    and staying ahead in the evolving tech landscape.
+  </p>
+  <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+    Outside of work, I enjoy hiking 🌲, fitness 💪, and keeping up with cloud and 
+    AI innovations 🤖. I&apos;m open to new opportunities where I can drive 
+    impact. Let&apos;s connect if you think we align!
+  </p>
+
+        
+
+
         </motion.div>
 
         {/* Right: Profile Image */}
@@ -129,7 +128,7 @@ const About = () => {
       {/* Programming Tools: Scrolling Carousel */}
       <div className="mt-16 relative">
         <SectionHeader
-          title={"Programming Tools."}
+          title={"Technical Tools."}
           subtitle={"Dynamic view of my expertise."}
         />
 

@@ -25,12 +25,19 @@ import {
   FaDocker,
   FaFileExcel,
   FaGitAlt,
+  FaMicrosoft,
+  FaRegListAlt,
+  FaLinux,
+  FaDatabase,
+  FaCloud,
+  FaWindows,
 } from "react-icons/fa";
 import {
   SiJavascript,
   SiMongodb,
+  SiGooglecloud,
   SiTailwindcss,
-  SiTensorflow,
+  SiTensorflow, 
   SiPlotly,
   SiTableau,
   SiKeras,
@@ -46,9 +53,9 @@ import {
 } from "react-icons/si";
 
 export const headlines = [
-  "Hi, I'm Ganya.",
-  "I'm a Software Developer",
-  "I’m a versatile Software Engineer who bridges the gap between cutting-edge software development and data-driven decision-making. With expertise in crafting scalable applications and uncovering insights through analytics, I create impactful solutions that merge innovation with efficiency.",
+  "Hi, I'm Adarsh.",
+  "I'm a Database Developer",
+  "IT Engineer with 5+ years of experience in Infrastructure management, Database Administration, Networking, & Security. Specializing in high availability architectures, Cloud solutions (Azure, AWS), & Automation. Proven experience in designing & managing scalable IT solutions while ensuring regulatory adherence. Passionate about automating infrastructure (IaC) and implementing DevOps strategies to drive efficiency.",
 ];
 
 export const fixedNavItems = [
@@ -62,13 +69,13 @@ export const fixedNavItems = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    company: "Neuroleap Corporation",
-    duration: "Nov 2024 - Present",
+    title: "IT Infrastructure Engineer",
+    company: "CompuCom Systems",
+    duration: "Jun 2022 - Present",
     description: [
-      "Developed scalable web applications using React and Node.js.",
-      "Improved system performance by 30% through optimized database queries.",
-      "Led a team of 5 to implement Agile methodologies, ensuring timely delivery.",
+      "Oversaw enterprise-wide SQL databases, VMs, & storage for 100+ servers, ensuring uptime per SLAs.",
+      "Architected high-availability database infrastructures using SQL Server Clustering, Replication & AlwaysOn",
+      "Collaborated with DevOps teams to integrate CI/CD pipelines & Infrastructure as Code (IaC) methodologies.", 
     ],
   },
   {
@@ -204,49 +211,42 @@ export const projects = [
 ];
 
 export const skillsWork = [
-  { name: "HTML5", icon: FaHtml5 },
-  { name: "CSS3", icon: FaCss3Alt },
-  { name: "Javascript", icon: SiJavascript },
-  { name: "React", icon: FaReact },
-  { name: "Tailwind CSS", icon: SiTailwindcss },
-  { name: "Node.js", icon: FaNodeJs },
   { name: "Python", icon: FaPython },
-  { name: "R Programming", icon: SiR },
-  { name: "PostgreSQL", icon: BiLogoPostgresql },
-  { name: "MySQL", icon: GrMysql },
+  { name: "SQL Server", icon: FaDatabase },
   { name: "MongoDB", icon: SiMongodb },
+  { name: "Azure", icon: FaMicrosoft },
+  { name: "MySQL", icon: GrMysql },
+  { name: "PostgreSQL", icon: BiLogoPostgresql },
+  { name: "Scrum Methodologies", icon: FaRegListAlt },
+  { name: "SSIS", icon: FaMicrosoft },
   { name: "Docker", icon: FaDocker },
+  { name: "Rubrik", icon: FaCloud },
   { name: "AWS", icon: FaAws },
-  { name: "API Integration", icon: AiOutlineDeploymentUnit },
   { name: "CI/CD", icon: SiJfrogpipelines },
   { name: "Git", icon: FaGitAlt },
-  { name: "Bitbucket", icon: IoLogoBitbucket },
   { name: "Excel", icon: FaFileExcel },
   { name: "PowerBI", icon: SiSoundcharts },
+  { name: "SSRS", icon: FaMicrosoft },
+  { name: "Active Directory", icon: FaWindows },
   { name: "Tableau", icon: SiTableau },
-  { name: "Keras", icon: SiKeras },
-  { name: "TensorFlow", icon: SiTensorflow },
-  { name: "PyTorch", icon: SiPytorch },
-  { name: "Scikit-Learn", icon: SiScikitlearn },
-  { name: "Pandas", icon: SiPandas },
-  { name: "Matplotlib", icon: SiBreaker },
-  { name: "Seaborn", icon: SiCinnamon },
-  { name: "Plotly", icon: SiPlotly },
   { name: "Statistical Analysis", icon: VscGraphLine },
   { name: "Agile Methodologies", icon: SiGooglemarketingplatform },
+  { name: "Linux", icon: FaLinux },  
+  { name: "Delphix", icon: FaDatabase },
+  { name: "SolarWinds", icon: FaCloud }
 ];
 
 export const certificates = [
-  "IBM Data Science",
-  "Architecting with Google Cloud",
+  "Micorsoft Azure Solutions Architect",
+  "ITIL Foundations",
 ];
 
 export const articles = [
   {
     title: "Data Analytics Job Simulation - Accenture North America",
     summary:
-      "Analyzed retail data to uncover a 23% higher purchase likelihood of Tyrrells chips among young singles/couples, driving strategic recommendations to enhance product visibility and impulse sales.",
-    url: "https://github.com/Ganya04/Accenture-Data-Analytics-and-Visualization-Virtual-Internship",
+      "Achieved Certification demonstrating expertise in administering Azure databases, conferred by Microsoft for Azure Database Administrator Associate level.",
+    url: "https://github.com/Adarshpv/Links.git",
     image: a1,
   },
   {
@@ -287,7 +287,7 @@ export const articles = [
 ];
 
 export const metadata = {
-  title: "Ganya Janardhan",
+  title: "Adarsh Pathange",
   description:
     "This portfolio is a collection of my work that showcases my skills and creativity.",
   imageURL:

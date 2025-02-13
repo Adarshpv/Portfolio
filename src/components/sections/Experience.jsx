@@ -2,91 +2,23 @@
 
 import { useState } from "react";
 import SectionHeader from "../ui/SectionHeader";
-import sparks from "../../assets/images/sparks.jpeg";
-import smmud from "../../assets/images/smmud.jpeg";
-import veriteam from "../../assets/images/veriteam.jpeg";
-import saayam from "../../assets/images/saayam.jpeg";
-import neuroleap from "../../assets/images/neuroleap.png";
-import techlance from "../../assets/images/techlance.jpg";
+import sparks from "../../assets/images/sparks2.png";
+import smmud from "../../assets/images/smmud1.png";
+import veriteam from "../../assets/images/veriteam1.jpg";
+import saayam from "../../assets/images/saayam.png";
+import neuroleap from "../../assets/images/neuroleap1.jpg";
+import techlance from "../../assets/images/techlance1.jpg";
 
 export default function Experience() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const experiences = [
     {
-      company: "Neuroleap Corporation",
-      roles: [{ title: "Software Developer", duration: "Nov 2024 - Present" }],
+      company: "Illinois Institute of Technology",
+      roles: [{ title: "Teaching Assistant", duration: "Aug 2024 - Dec 2024" }],
       description: `
-        Developing software solutions for cutting-edge neurological research and advancements.
-        Focused on creating modular React.js components with Node.js APIs for scalable and accessible applications.
-      `,
-      additionalInfo: `
-        Improved system performance by 30%, optimized state management, and implemented Docker-based deployments.
-        Collaborated on integrating RESTful APIs for seamless functionality and efficient data flow.
-      `,
-      image: neuroleap,
-    },
-    {
-      company: "Saayam For All",
-      roles: [{ title: "Software Developer", duration: "Oct 2024 - Nov 2024" }],
-      description: `
-        Worked on impactful community engagement software, ensuring accessibility and usability across devices.
-        Designed dynamic user interfaces using React.js and Tailwind CSS, elevating mobile responsiveness.
-      `,
-      additionalInfo: `
-        Established cloud infrastructure using AWS services, automated CI/CD deployments, and monitored performance
-        using AWS CloudWatch, revamping scalability and operational productivity.
-      `,
-      image: saayam,
-    },
-    {
-      company: "Veriteam Software Solutions Pvt.Ltd",
-      roles: [{ title: "Software Developer", duration: "Jun 2022 - Jul 2022" }],
-      description: `
-        Contributed to enterprise-level projects with a focus on backend integrations and API development.
-        Facilitated a flexible news feed system leveraging microservices, enhancing user engagement by 35%.
-      `,
-      additionalInfo: `
-        Improved real-time data updates using RESTful APIs, reduced latency by 15%, and launched versatile back-end
-        solutions with AWS and CI/CD automation.
-      `,
-      image: veriteam,
-    },
-    {
-      company: "Smmud Technologies Pvt.Ltd",
-      roles: [
-        { title: "Data Analyst", duration: "Jan 2021 - Dec 2021" },
-        { title: "Software Developer", duration: "Jan 2022 - Jun 2022" },
-      ],
-      description: `
-        Transitioned from data analysis to full-stack development, focusing on scalable e-commerce solutions.
-        Partnered with backend teams to broaden system capacity, ensuring high availability and scalability.
-      `,
-      additionalInfo: `
-        Amplified page load times by 30% through code splitting and lazy loading, and streamlined MySQL databases
-        for improved query response by 25%.
-      `,
-      image: smmud,
-    },
-    {
-      company: "The Sparks Foundation",
-      roles: [{ title: "Data Scientist", duration: "Dec 2020 - Jun 2021" }],
-      description: `
-        Conducted advanced data-driven research and implemented machine learning models for impactful solutions.
-        Delivered actionable insights through predictive analytics and data visualization pipelines.
-      `,
-      additionalInfo: `
-        Achieved 97% accuracy in K-means clustering on a 16-dimensional dataset and refined SQL queries,
-        expanding database capability by 30% and reducing query execution time by 20%.
-      `,
-      image: sparks,
-    },
-    {
-      company: "Techlance Software Solutions",
-      roles: [{ title: "Software Developer", duration: "Jan 2019 - Jun 2020" }],
-      description: `
-        Designed and developed full-stack applications for clients across diverse industries as a freelancer.
-        Focused on building scalable solutions, integrating APIs, and ensuring optimal performance for end users.
+        Assessed and provided constructive feedback on 50+ student assignments and projects each week, focusing on advanced database management concepts.
+        Resolved SQL and cloud database challenges, contributing to a 25% improvement in student assignment quality and completion rates.
       `,
       additionalInfo: `
         Successfully implemented RESTful APIs that enhanced application efficiency by 25%.
@@ -94,6 +26,80 @@ export default function Experience() {
         and developed dynamic front-end interfaces that boosted client satisfaction by 30%.
       `,
       image: techlance,
+    },
+    {
+      company: "CompuCom Systems",
+      roles: [{ title: "IT Infrastructure Engineer", duration: "Jun 2022 - Mar 2023" }],
+      description: `
+        Oversaw enterprise-wide SQL databases, VMs, & storage for 100+ servers, ensuring uptime per SLAs.
+        Architected high-availability database infrastructures using SQL Server Clustering, Replication & AlwaysOn. 
+        Managed Active Directory & Azure AD implementations, creating secure authentication & identity management.
+      `,
+      additionalInfo: `
+        Handled cloud & on-premises storage solutions, optimizing data performance & disaster recovery readiness.
+        Developed & implemented automation scripts using PowerShell & Ansible streamlining infrastructure deployments. 
+        Collaborated with DevOps teams to integrate CI/CD pipelines & Infrastructure as Code (IaC) methodologies.
+      `,
+      image: neuroleap,
+    },
+    {
+      company: "Eclosia",
+      roles: [{ title: "Database Engineer", duration: "May 2022 - Aug 2022" }],
+      description: `
+        As a Database Consultant at Eclosia, I upgraded enterprise-wide SQL servers to higher versions, optimized database performance, and led disaster recovery planning
+        Boosted SQL server performance by 50% through upgrades and migrations.
+      `,
+      additionalInfo: `
+        Led disaster recovery planning and testing, minimizing downtime for the company.
+        Resolved bottleneck issues on critical production servers, ensuring operational efficiency.
+      `,
+      image: saayam,
+    },
+    {
+      company: "MassMutual",
+      roles: [{ title: "Database & Systems Administrator", duration: "Nov 2021 - Jun 2022" }],
+      description: `
+        Designed & configured 120+ high-performance infrastructures, optimizing VMs, networking, storage, & security.
+        Administered SQL Server, Azure SQL, & MongoDB databases, ensuring optimal performance & uptime.
+        Implemented network security policies & firewall configurations to best safeguard IT infrastructure.
+      `,
+      additionalInfo: `
+       Automated routine database maintenance tasks using PowerShell & SQL scripts, reducing execution time by 40%. 
+       Designed & maintained disaster recovery (DR) plans, including backup strategies & failover clustering.
+      `,
+      image: veriteam,
+    },
+    {
+      company: "Infosys.Ltd",
+      roles: [
+        { title: "Senior Systems Engineer", duration: "Jan 2020 - Nov 2021" },
+        { title: "Systems Engineer", duration: "Sept 2018 - Dec 2019" },
+      ],
+      description: `
+      Managed database & network infrastructure, including servers, routers, switches, VPNs, & firewalls.
+      Led cloud migration initiatives, transitioning 65+ on-premises databases to Azure SQL & Managed Instances.
+      Enhanced application responsiveness by managing performance tuning, indexing strategies, and query optimization.
+      `,
+      additionalInfo: `
+      Assisted in security audits & vulnerability assessments, enhancing overall system security & ensuring compliance.
+      Created detailed technical documentation, accelerating onboarding time for new team members by 60%. 
+      Designed PowerBI dashboards for system health & performance, enhancing reporting accuracy & reducing delays.
+    `,
+      image: smmud,
+    },
+    {
+      company: "Treebo Hotels",
+      roles: [{ title: "Data Analysis Intern", duration: "Jan 2018 - Apr 2018" }],
+      description: `
+        Analyzed and visualized over 1,000+ data points, generating actionable insights through comprehensive charts and reports.
+        Designed and documented workflows to streamline data processing and reporting operations.
+        Delivered actionable insights through predictive analytics and data visualization pipelines.
+      `,
+      additionalInfo: `
+        Developed and deployed 5+ automated dashboards, improving data accessibility and reducing manual reporting efforts by 40%.
+        Collaborated with 3 cross-functional teams, enhancing data-driven strategies and achieving a 20% improvement in reporting accuracy.
+      `,
+      image: sparks,
     },
   ];
 

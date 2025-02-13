@@ -81,7 +81,7 @@ const Projects = () => {
           For more projects...
         </p>
         <a
-          href="https://github.com/Ganya04"
+          href="https://github.com/Adarshpv"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 mt-2 group"

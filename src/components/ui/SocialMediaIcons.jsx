@@ -47,7 +47,7 @@ export const SocialMediaIcons = () => {
 
 const socialMediaLinks = [
 	{
-		url: "https://www.linkedin.com/in/ganya-janardhan/",
+		url: "https://www.linkedin.com/in/adarsh-pathange/",
 		iconComponent: (
 			<FaLinkedin
 				className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"
@@ -56,7 +56,7 @@ const socialMediaLinks = [
 		),
 	},
 	{
-		url: "https://github.com/Ganya04",
+		url: "https://github.com/Adarshpv",
 		iconComponent: (
 			<FaGithub
 				className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"
@@ -65,7 +65,7 @@ const socialMediaLinks = [
 		),
 	},
 	{
-		url: "mailto:janardhanganya@gmail.com",
+		url: "mailto:adarsh.patz@gmail.com",
 		iconComponent: (
 			<FaEnvelope
 				className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"
@@ -74,7 +74,7 @@ const socialMediaLinks = [
 		),
 	},
 	{
-		url: "https://calendly.com/janardhanganya",
+		url: "https://calendly.com/adarshpathange",
 		iconComponent: (
 			<FaCalendarAlt
 				className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"

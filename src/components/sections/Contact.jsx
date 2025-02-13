@@ -66,26 +66,26 @@ const Contact = () => {
 		{
 			title: "LinkedIn",
 			icon: <FaLinkedin size={24} />,
-			info: "@ganya-janardhan",
-			path: "https://www.linkedin.com/in/ganya-janardhan/",
+			info: "@Adarsh-Pathange",
+			path: "https://www.linkedin.com/in/adarsh-pathange/",
 		},
 		{
 			title: "GitHub",
 			icon: <FaGithub size={24} />,
-			info: "@Ganya04",
-			path: "https://github.com/Ganya04",
+			info: "@Adarshpv",
+			path: "https://github.com/Adarshpv",
 		},
 		{
 			title: "Email",
 			icon: <MdEmail size={24} />,
-			info: "janardhanganya@gmail.com",
-			path: "mailto:janardhanganya@gmail.com",
+			info: "adarsh.patz@gmail.com",
+			path: "mailto:adarsh.patz@gmail.com",
 		},
 		{
 			title: "Schedule a Meeting",
 			icon: <FaCalendarAlt size={24} />,
-			info: "janardhanganya",
-			path: "https://calendly.com/janardhanganya",
+			info: "adarshpathange",
+			path: "https://calendly.com/adarshpathange",
 		},
 	];
 
